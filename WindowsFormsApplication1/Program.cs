@@ -28,6 +28,7 @@ namespace HotKeyMgr
         {
             //get the name of current process, i,e the process 
             //name of this current application
+            // new change that introduced in TEM-33333
 
             string currPrsName = Process.GetCurrentProcess().ProcessName;
 
